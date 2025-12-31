@@ -1,0 +1,21 @@
+word_dict = {
+    "animal": "cow",
+    "fruit": "apple",
+    "vehicle": "car",
+    "color": "blue",
+    "drink": "water",
+    "sport": "soccer",
+    "body part": "hand",
+    "clothing": "shirt",
+    "city": "Paris",
+    "job": "teacher",
+    "insect": "bee",
+    "flower": "rose",
+    "house item": "table",
+    "furniture": "chair",
+    "musical instrument": "piano",
+    "tool": "hammer",
+    "dessert": "cake",
+    "weather": "rain",
+    "pet": "dog"
+}
