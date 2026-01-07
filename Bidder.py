@@ -1,5 +1,15 @@
 from os import system
 
+def highest(bidders):
+    high=0
+    winner=''
+    for key,value in bidders.items():
+        if value>high:
+            high=value
+            winner=key
+    print(f'Congratulations {winner} you have won the bid !!!!')
+
+
 def main():
     print(f"{'*'*40}'Welcome to the Bid'{'*'*40}")
 
@@ -18,14 +28,11 @@ def main():
             flag=input('Kindly Enter "yes" or "no" only!').lower()
         if flag=='yes':
             system("clear")
+        else:
+            highest(bidders)
+            break
 
-    high=0
-    winner=''
-    for key,value in bidders.items():
-        if value>high:
-            high=value
-            winner=key
-    print(f'Congratulations {winner} you have won the bid !!!!')
+    
 
 
 
